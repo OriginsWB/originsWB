@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@100&family=Lora:ital,wght@0,400;1,500&family=Montserrat:wght@100;400;500&family=Poppins:wght@300;400&family=Smooch&family=Work+Sans:wght@100&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#logo {
+    font-family: 'Lora', serif;
+}
+
+#deskteam1 {
+    font-size: 1em;
+    color: #000;
+    font-weight: 800;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#closeSide {
+    margin-top: 30px;
+    color: #000;
+    margin-right: 20px;
+}
+
+#about {
+    font-size: 2em;
+    color: #fff;
+}
+
+#aboutus {
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+    text-align: justify;
+    font-size: 1em;
+}
+
+#aboutus1 {
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+    font-size: 1em;
+}
+
+#sideLink {
+    font-size: 1.2em;
+    color: #000;
+    margin-top: 10px;
+}
+
+#ot {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+#ts {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+#profile {
+    border-left: 4px solid rgba(18, 128, 164, 0.27);
+    border-right: 4px solid #1280A4;
+}
+
+#sideIcon {
+    color: #000;
+}
+
+@media screen and (min-width: 600px) {
+    #desktop {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #android {
+        display: none;
+    }
+    #logo {
+        font-size: 1.3em;
+    }
+    #teamName {
+        font-size: 1.5em;
+        color: #fff;
+    }
+    #deskteam1 {
+        font-size: 0.8em;
+    }
+}
